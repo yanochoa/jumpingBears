@@ -5,20 +5,20 @@ subtitle: Everything you need to take your party to the next level
 meta_title: Home | Bounce Houses and Party Rentals
 meta_description: >-
   Bounce Houses and Party Rentals
-heading: Bounce Houses
+heading: Our services
 description: >-
-  Brinca Brincas
+  Fast and reliable set up and pick up 100% free
 offerings:
   blurbs:
     - image: /img/brinca1-left-noback.jpg
       text: >
-        Standard bounce house, the easiest way to turn your party into the party of the year.
+        Standard bounce house, the easiest way to level up your kids birthday party
     - image: /img/brinca2-main-noback.jpg
       text: >
-        Waterslide delux bounce house
+        Waterslide bounce castle with a pool ! Perfect for an outdoor party in the AZ sun
     - image: /img/chairs-and-tables.jpg
       text: >
-        Outdoor folding chairs and tables to suit any party big or small
+        Practical outdoor folding chairs and tables to suit any party big or small
     # - image: /img/meeting-space.png
     #   text: >
     #     Vestibulum libero lectus, dignissim eget magna sit amet, malesuada tincidunt mi. Vivamus

@@ -9,32 +9,33 @@ meta_description: >-
   consectetur purus sit amet fermentum.
 pricing:
   description: >-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta justo justo, 
-    non semper odio cursus in. Curabitur ligula tortor, tristique non odio nec, imperdiet 
-    mattis leo. Vivamus aliquam rhoncus tortor vitae convallis. Aliquam non dui nibh. Nam 
-    a velit at enim sagittis pellentesque.
-  heading: Monthly subscriptions
+    All combos come with our free hastle free drop off, set up, and pickup of our rentals. All you have to do is relax, Jumping Bears party rentals will take care of the rest.
+  heading: Combos
   plans:
-    - description: Nulla faucibus, leo a condimentum aliquam, libero leo vehicula arcu
+    - description: Ideal for 30 people.
       items:
-        - Lorem ipsum dolor sit amet
-        - consectetur adipiscing elit
-        - Nunc finibus sem a sem ultrices
-      plan: Pro
-      price: '50'
-    - description: Mauris vitae dolor eu mauris malesuada cursus.
+        - Bounce house
+        - 4 tables
+        - 30 chairs
+      plan: Combo 1
+      price: "90"
+    - description: Ideal for 30 people.
       items:
-        - eget sagittis magna tempor
-        - Quisque pulvinar lorem molestie
-        - Proin at sagittis ex
-      plan: Enterprise
-      price: '80'
-    - description: Praesent elit lectus, iaculis vel odio vitae, bibendum auctor lacus.
+        - Waterslide bounce castle & pool
+        - 4 tables
+        - 30 chairs
+      plan: Combo 2
+      price: "130"
+    - description: Tables and chairs only, but you may add a jumper at a discounted price
       items:
-        - Pellentesque luctus neque id mauris accumsan
-        - nec imperdiet justo eleifend
-        - Sed eget ornare orci
-      plan: Custom
-      price: '??'
+        - 8 tables
+        - 64 chairs
+      plan: Combo 3
+      price: "85"
+    - description: Tables and chairs only, but you can add a jumper at a discounted price
+      items:
+        - 12 tables
+        - 96 chairs
+      plan: Combo 4
+      price: "200"
 ---
-
