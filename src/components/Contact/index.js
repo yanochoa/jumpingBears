@@ -7,7 +7,7 @@ const Contact = ({ email, description }) => {
       className="content"
       style={{ border: "1px solid #eaecee", padding: "2em 4em" }}
     >
-      <p className="is-size-3">
+      <p className="is-size-5">
         <a href={`mailto:${email}`}>{email}</a>
       </p>
       <p>{description}</p>
