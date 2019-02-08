@@ -15,3 +15,5 @@ It follows the [JAMstack architecture](https://jamstack.org) by using Git as a s
 - Progressive Web App & Offline Support
 - Tags and RSS Feed for Blog
 - Pagination
+
+##Icons made by Freepik from href="https://www.flaticon.com/
