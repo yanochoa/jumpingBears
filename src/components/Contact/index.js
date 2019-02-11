@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { FaInstagram } from "react-icons/fa";
 
 const Contact = ({ email, description }) => {
   return (
@@ -11,6 +12,17 @@ const Contact = ({ email, description }) => {
         <a href={`mailto:${email}`}>{email}</a>
       </p>
       <p>{description}</p>
+
+      <div>
+        <a
+          href="https://www.instagram.com/jumpingbearsaz"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Instagram"
+        >
+          <FaInstagram /> Check us out on Instagram!
+        </a>
+      </div>
     </div>
   );
 };

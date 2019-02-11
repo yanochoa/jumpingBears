@@ -3,6 +3,7 @@ import Helmet from "react-helmet";
 import Offerings from "../Offerings";
 import PropTypes from "prop-types";
 import "./_homepage.scss";
+import { FaInstagram } from "react-icons/fa";
 
 const HomePageTemplate = ({
   title,
@@ -26,6 +27,17 @@ const HomePageTemplate = ({
               <div className="section">
                 <h1 className="title">{title}</h1>
                 <h2 className="subtitle">{subtitle}</h2>
+                <h1 className="subtitle">
+                  Check us out on Instagram!{"  "}
+                  <a
+                    href="https://www.instagram.com/jumpingbearsaz"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Instagram"
+                  >
+                    <FaInstagram />
+                  </a>
+                </h1>
               </div>
             </div>
           </div>

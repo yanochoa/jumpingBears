@@ -1,0 +1,15 @@
+.pricing-page {
+  &__castle1 {
+    max-width: 50%;
+    height: auto;
+    margin-left: 25%;
+  }
+  &__castle2 {
+    max-width: 70%;
+    height: auto;
+    margin-left: 20%;
+  }
+  &__text-description {
+    margin-top: 20%;
+  }
+}
