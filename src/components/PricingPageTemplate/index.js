@@ -56,7 +56,9 @@ const PricingPageTemplate = ({
                 <h2 className="has-text-weight-semibold is-size-2">
                   Individual Pricing
                 </h2>
-                <p className="is-size-5">Price per item</p>
+                <p className="is-size-5">
+                  Free drop-off, set-up & drop-off included
+                </p>
               </div>
             </div>
           </div>
@@ -65,25 +67,34 @@ const PricingPageTemplate = ({
 
           {/* first */}
 
-          <div className="columns" style={{ border: "1px solid #eaecee" }}>
+          <div
+            className="columns pricing-page__a-la-carte-item"
+            style={{ border: "1px solid #eaecee" }}
+          >
             <div className="column is-half">
               <p>
                 <img
-                  className="pricing-page__castle1"
+                  className="pricing-page__small-item"
                   alt="jumping castle"
                   src="/img/brinca1-left-noback.jpg"
                 />
               </p>
             </div>
             <div className="column has-text-centered">
-              <p className=" pricing-page__text-description is-size-4">$55</p>
-              <p>10x10 feet</p>
+              <p className="pricing-page__small-item__description is-size-2 has-text-weight-bold has-text-primary">
+                $55
+              </p>
+              <p className="is-size-5">Bounce House</p>
+              <p className="is-size-5">Dimensions : 10x10 Feet</p>
             </div>
           </div>
 
           {/* second */}
 
-          <div className="columns" style={{ border: "1px solid #eaecee" }}>
+          <div
+            className="columns pricing-page__a-la-carte-item"
+            style={{ border: "1px solid #eaecee" }}
+          >
             <div className="column is-half">
               <p>
                 <img
@@ -94,12 +105,62 @@ const PricingPageTemplate = ({
               </p>
             </div>
             <div className="column has-text-centered">
-              <p className="pricing-page__text-description is-size-4">$100</p>
-              <p>10x28 feet</p>
-              <p>can be either pool or plastic ball pit</p>
-              {/* sillas .75
-                tables 7
-              */}
+              <p className="pricing-page__castle2__description is-size-2 has-text-weight-bold has-text-primary">
+                $100
+              </p>
+              <p className="is-size-5">
+                Bounce Castle with Waterslide and Pool
+              </p>
+              <p className="is-size-5">Dimensions : 10x28 Feet</p>
+              <p className="is-size-5">
+                Pool area can be be turned into a plastic ball pit upon request
+              </p>
+            </div>
+          </div>
+
+          {/* third */}
+
+          <div
+            className="columns pricing-page__a-la-carte-item"
+            style={{ border: "1px solid #eaecee" }}
+          >
+            <div className="column is-half">
+              <p>
+                <img
+                  className="pricing-page__small-item"
+                  alt="foldable table"
+                  src="/img/folding-table.jpeg"
+                />
+              </p>
+            </div>
+            <div className="column has-text-centered">
+              <p className="pricing-page__small-item__description is-size-2 has-text-weight-bold has-text-primary">
+                $7
+              </p>
+              <p className="is-size-5"> 6 Foot Foldable Plastic Table</p>
+            </div>
+          </div>
+
+          {/* fourth */}
+
+          <div
+            className="columns pricing-page__a-la-carte-item"
+            style={{ border: "1px solid #eaecee" }}
+          >
+            <div className="column is-half">
+              <p>
+                <img
+                  className="pricing-page__small-item"
+                  alt="foldable chair"
+                  src="/img/plastic-chair.jpg"
+                />
+              </p>
+            </div>
+            <div className="column has-text-centered">
+              <p className="pricing-page__small-item__description is-size-2 has-text-weight-bold has-text-primary">
+                $0.75
+              </p>
+              <p className="is-size-5"> Foldable Chair</p>
             </div>
           </div>
         </div>
