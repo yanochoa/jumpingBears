@@ -65,7 +65,7 @@ const PricingPageTemplate = ({
 
           {/* item listing start */}
 
-          {/* first */}
+          {/* Bounce house */}
 
           <div
             className="columns pricing-page__a-la-carte-item"
@@ -161,7 +161,31 @@ const PricingPageTemplate = ({
             </div>
           </div>
 
-          {/* third castle */}
+          {/* Castle with slide */}
+
+          <div
+            className="columns pricing-page__a-la-carte-item"
+            style={{ border: "1px solid #eaecee" }}
+          >
+            <div className="column is-half">
+              <p>
+                <img
+                  className="pricing-page__small-item"
+                  alt="Bounce Castle with slide"
+                  src="/img/castlewithslide.jpg"
+                />
+              </p>
+            </div>
+            <div className="column has-text-centered">
+              <p className="pricing-page__small-item__description is-size-2 has-text-weight-bold has-text-primary">
+                $100
+              </p>
+              <p className="is-size-5">Bounce Castle with Slide</p>
+              <p className="is-size-5">Dimensions : 20x13 Feet</p>
+            </div>
+          </div>
+
+          {/* castle with slide and pool */}
 
           <div
             className="columns pricing-page__a-la-carte-item"
@@ -178,7 +202,7 @@ const PricingPageTemplate = ({
             </div>
             <div className="column has-text-centered">
               <p className="pricing-page__castle2__description is-size-2 has-text-weight-bold has-text-primary">
-                $100
+                $150
               </p>
               <p className="is-size-5">
                 Bounce Castle with Waterslide and Pool

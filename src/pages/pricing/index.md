@@ -21,7 +21,7 @@ pricing:
       price: "90"
     - description: Ideal for 30 people.
       items:
-        - Waterslide bounce castle & pool
+        - Bounce house with a slide
         - 4 tables
         - 30 chairs
       plan: Combo 2
