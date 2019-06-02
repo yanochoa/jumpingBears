@@ -75,7 +75,7 @@ const PricingPageTemplate = ({
               <p>
                 <img
                   className="pricing-page__small-item"
-                  alt="jumping castle"
+                  alt="Bounce House"
                   src="/img/brinca1-left-noback.jpg"
                 />
               </p>
@@ -89,7 +89,79 @@ const PricingPageTemplate = ({
             </div>
           </div>
 
-          {/* second */}
+          {/* second catle */}
+
+          <div
+            className="columns pricing-page__a-la-carte-item"
+            style={{ border: "1px solid #eaecee" }}
+          >
+            <div className="column is-half">
+              <p>
+                <img
+                  className="pricing-page__small-item"
+                  alt="Crayola Castle"
+                  src="/img/crayola.jpg"
+                />
+              </p>
+            </div>
+            <div className="column has-text-centered">
+              <p className="pricing-page__small-item__description is-size-2 has-text-weight-bold has-text-primary">
+                $60
+              </p>
+              <p className="is-size-5">Crayola Castle</p>
+              <p className="is-size-5">Dimensions : 11x11 Feet</p>
+            </div>
+          </div>
+
+          {/* Night castle */}
+
+          <div
+            className="columns pricing-page__a-la-carte-item"
+            style={{ border: "1px solid #eaecee" }}
+          >
+            <div className="column is-half">
+              <p>
+                <img
+                  className="pricing-page__small-item"
+                  alt="Night Castle"
+                  src="/img/night.jpg"
+                />
+              </p>
+            </div>
+            <div className="column has-text-centered">
+              <p className="pricing-page__small-item__description is-size-2 has-text-weight-bold has-text-primary">
+                $65
+              </p>
+              <p className="is-size-5">Night Castle</p>
+              <p className="is-size-5">Dimensions : 15x15 Feet</p>
+            </div>
+          </div>
+
+          {/* Blue castle */}
+
+          <div
+            className="columns pricing-page__a-la-carte-item"
+            style={{ border: "1px solid #eaecee" }}
+          >
+            <div className="column is-half">
+              <p>
+                <img
+                  className="pricing-page__small-item"
+                  alt="Blue Castle"
+                  src="/img/blue.jpg"
+                />
+              </p>
+            </div>
+            <div className="column has-text-centered">
+              <p className="pricing-page__small-item__description is-size-2 has-text-weight-bold has-text-primary">
+                $65
+              </p>
+              <p className="is-size-5">Blue Cherry Castle</p>
+              <p className="is-size-5">Dimensions : 15x15 Feet</p>
+            </div>
+          </div>
+
+          {/* third castle */}
 
           <div
             className="columns pricing-page__a-la-carte-item"
