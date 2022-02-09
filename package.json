@@ -46,7 +46,7 @@
     "react-icons": "^3.3.0",
     "react-share": "^2.4.0",
     "uglifyjs-webpack-plugin": "^2.1.1",
-    "yarn": "^1.13.0"
+    "yarn": "^1.22.0"
   },
   "remarkConfig": {
     "plugins": [
